@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="15" CornerRadius="0">
+            <Label x:Name="LabelHallo" Text="Separate image!" HorizontalTextAlignment="Center" 
+                   TextColor="White" FontSize="15" />
+        </Frame>
+        <Button  Text="Select image" Clicked="ButtonSelectImage_Clicked"/>
+        <Button Text="Select main file" Clicked="ButtonSelectFile_Clicked"/>
+        <Button Text="Exit" Clicked="ButtonExit_Cliked"/>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,1 @@
+Pet project for splitting, encrypting and saving images in various files to an SD card on an android
